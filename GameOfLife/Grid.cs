@@ -20,8 +20,6 @@ namespace GameOfLife
         private SolidColorBrush darkGray = Brushes.DarkGray;
         private SolidColorBrush gray = Brushes.Gray;
 
-
-
         public Grid(Canvas c)
         {
             drawCanvas = c;
@@ -42,9 +40,7 @@ namespace GameOfLife
             SetRandomPattern();
             InitCellsVisuals();
             UpdateGraphics();
-            
         }
-
 
         public void Clear()
         {

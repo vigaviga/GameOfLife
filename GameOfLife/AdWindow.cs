@@ -55,6 +55,7 @@ namespace GameOfLife
         public void Unsubscribe()
         {
             adTimer.Tick -= ChangeAds;
+            images = null;
         }
 
         private void ChangeAds(object sender, EventArgs eventArgs)
